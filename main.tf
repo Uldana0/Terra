@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "tf-state-ecr-dana"
-    key            = "tf-ecr"
-    region         = "us-east-1"
+    bucket = "tf-state-ecr-dana"
+    key    = "tf-ecr"
+    region = "us-east-1"
   }
 }
 
